@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "front_end_users",
+  "info": {
+    "singularName": "front-end-user",
+    "pluralName": "front-end-users",
+    "displayName": "FrontEndUser",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "UserName": {
+      "type": "string",
+      "required": true
+    },
+    "UserEmail": {
+      "type": "email",
+      "required": true,
+      "unique": true
+    },
+    "Password": {
+      "type": "password",
+      "required": true
+    }
+  }
+}
